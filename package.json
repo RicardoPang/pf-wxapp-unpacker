@@ -1,0 +1,22 @@
+{
+  "name": "pf-wxapp-unpacker",
+  "version": "0.2.3",
+  "description": "Wechat App(微信小程序, .wxapkg)解包及相关文件(.wxss, .json, .wxs, .wxml)还原工具",
+  "main": "wuWxapkg.js",
+  "author": "qwerty472123",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "beautify": "js-beautify",
+    "beautifyWAWebview": "js-beautify ./dist/WAWebview.js -r",
+    "beautifyAppService": "js-beautify ./dist/WAWebview.js -r"
+  },
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.28",
+    "cssbeautify": "^0.3.1",
+    "escodegen": "^1.11.0",
+    "esprima": "^4.0.0",
+    "js-beautify": "^1.7.5",
+    "uglify-es": "^3.3.9",
+    "vm2": "^3.6.0"
+  }
+}
